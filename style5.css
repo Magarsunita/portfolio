@@ -1,0 +1,2043 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(45, 44, 44);
+}
+a{
+    text-decoration: none;
+    font-family: montse;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+}
+.navlinks{
+    width: 80%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+#buy {
+    color: rgb(246, 243, 243);
+    padding: 1.2rem 2rem;
+    box-shadow: 10px 10px 19px #1c1e22,
+        -10px -10px 19px #262a2e;
+    background-color: var(--color-dark);
+    font-weight: bold;
+}
+.introduction{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-left: 3.5%;
+    color: white;
+}
+#title{
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+.introduction strong {
+    color: red;
+}
+
+.introduction span {
+    font-size: 2.5rem;
+    color: white;
+}
+.social_link {
+    color: white;
+    margin-top: 3rem;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    margin-right: 60%;
+    position: relative;
+    left: 5rem;
+}
+
+#social {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    column-gap: 2rem;
+    margin-right: 30%;
+    position: relative;
+    
+    
+    
+}
+
+#social li {
+    box-shadow: 10px 10px 19px #1c1e22,
+        -5px -10px 10px #262a2e;
+    background-color: #202327;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+#social li:hover {
+    background-color: #1a1b20;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+.img{
+    position: absolute;
+    
+    left: 50rem;
+    top: 4rem;
+    
+
+}
+
+.text{
+    display: flex;
+    color: red;
+    font-size: 10px;
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+.t1{
+    display: flex;
+    color: rgb(242, 232, 232);
+    margin-top: 1.5%;
+    margin-left: 5%;
+    font-size: 40px;
+}
+.shadow{
+    box-shadow: 10px 10px 10px #1c1e22,
+        -5px -10px 10px #262a2e;
+        position: relative;
+        top: 2rem;
+        left: 5rem;
+        height: 300px;
+        width: 375px;
+        transition: transform 0.5s ease;
+}
+.shadow :hover{
+    background-color: #1a1b20;
+    cursor: pointer;
+    transform: translateY(-2px);
+
+}
+
+
+
+
+.font{
+    position: relative;
+    left: 5rem;
+    color: red;
+    top: 2rem;
+    height: 50px;
+    font-size: 40px;
+    
+}
+.text2{
+   position: relative;
+   top: 3.5rem;
+   left: 3.5rem;
+   color: white;
+}
+#nexttitle{
+    display: flex;
+    margin-top: 1%;
+    font-size: 30px;
+    
+}
+#paragraph{
+    display: flex;
+    margin-top: 5.5%;
+}
+.shadow2{
+    box-shadow: 10px 10px 10px #1c1e22,
+    -5px -10px 10px #262a2e;
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+    height: 300px;
+    width: 375px;
+
+}
+.font2{
+    position: relative;
+    left: 5rem;
+    color: red;
+    top: 2rem;
+    font-size: 40px;
+    
+    
+
+}
+.text3{
+    position: relative;
+    top: 4rem;
+    left: 3.5rem;
+    color: white;
+ }
+ #nexttitle2{
+     display: flex;
+     margin-top: 1%;
+     font-size: 30px;
+     
+ }
+ #paragraph2{
+     display: flex;
+     margin-top: 5.5%;
+ }
+ .shadow3{
+    box-shadow: 10px 10px 10px #1c1e22,
+    -5px -10px 10px #262a2e;
+    position: relative;
+    bottom: 35.4rem;
+    left: 35rem;
+    height: 300px;
+    width: 375px;
+
+}
+.font3{
+    position: relative;
+    left: 5rem;
+    color: red;
+    top: 2rem;
+    font-size: 40px;
+    
+    
+
+}
+.text4{
+    position: relative;
+    top: 4rem;
+    left: 3.5rem;
+    color: white;
+ }
+ #nexttitle3{
+     display: flex;
+     margin-top: 1%;
+     font-size: 30px;
+     
+ }
+ #paragraph3{
+     display: flex;
+     margin-top: 5.5%;
+ }
+ .shadow4{
+    box-shadow: 10px 10px 10px #1c1e22,
+    -5px -10px 10px #262a2e;
+    position: relative;
+    bottom: 33.5rem;
+    left: 35rem;
+    height: 300px;
+    width: 375px;
+
+}
+.font4{
+    position: relative;
+    left: 5rem;
+    color: red;
+    top: 2rem;
+    font-size: 40px;
+}
+.text5{
+    position: relative;
+    top: 4rem;
+    left: 3.5rem;
+    color: white;
+ }
+ #nexttitle4{
+     display: flex;
+     margin-top: 1%;
+     font-size: 30px;
+     
+ }
+ #paragraph4{
+     display: flex;
+     margin-top: 5.5%;
+ }
+ .shadow5{
+    box-shadow: 10px 10px 10px #1c1e22,
+    -5px -10px 10px #262a2e;
+    position: relative;
+    bottom: 73rem;
+    left: 64rem;
+    height: 300px;
+    width: 375px;
+
+}
+.font5{
+    position: relative;
+    left: 5rem;
+    color: red;
+    top: 2.3rem;
+    font-size: 40px;
+}
+.text6{
+    position: relative;
+    top: 4rem;
+    left: 3.5rem;
+    color: white;
+ }
+ #nexttitle5{
+     display: flex;
+     margin-top: 1%;
+     font-size: 30px;
+     
+ }
+ #paragraph5{
+     display: flex;
+     margin-top: 5.5%;
+ }
+ .shadow6{
+    box-shadow: 10px 10px 10px #1c1e22,
+    -5px -10px 10px #262a2e;
+    position: relative;
+    bottom: 71rem;
+    left: 64rem;
+    height: 300px;
+    width: 375px;
+
+}
+.font6{
+    position: relative;
+    left: 5rem;
+    color: red;
+    top: 2rem;
+    font-size: 42px;
+}
+.text7{
+    position: relative;
+    top: 4rem;
+    left: 3.5rem;
+    color: white;
+ }
+ #nexttitle6{
+     display: flex;
+     margin-top: 1%;
+     font-size: 30px;
+     
+ }
+ #paragraph6{
+     display: flex;
+     margin-top: 5.5%;
+ }
+ .heading{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 55rem;
+
+ }
+ #port{
+ position: relative;
+ left: 7.5rem;
+ color: red;  
+ font-size: 20px; 
+
+ }
+ #head{
+    position: relative;
+    right: 12rem;
+    top: 1.5rem;
+    font-size: 55px;
+    color: white;
+ }
+ .shadow7{
+
+    box-shadow: 10px 10px 10px #1c1e22,
+    -5px -10px 10px #262a2e;
+    position: relative;
+    bottom: 50rem;
+    left: 8rem;
+    height: 410px;
+    width: 375px;
+    border-radius: 10px;
+ }
+ .img2{
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+    
+ }
+ .head{
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+    color: red;
+ }
+ .topic{
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+    font-size: 25px;
+    color: white;
+ }
+ .love{
+    color: red;
+    position: relative;
+    left: 18rem;
+    bottom: 1.5rem;
+ }
+ .num{
+    color: white;
+    position: relative;
+    left: 1.5rem;
+    bottom: 1rem;
+    font-size: 12px;
+ }
+ .shadow8{
+
+    box-shadow: 10px 10px 10px #1c1e22,
+    -5px -10px 10px #262a2e;
+    position: relative;
+    bottom:46.5rem;
+    left: 8rem;
+    height: 410px;
+    width: 375px;
+    border-radius: 10px;
+ }
+ .img3{
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+    
+ }
+ .head2{
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+    color: red;
+ }
+ .topic2{
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+    font-size: 25px;
+    color: white;
+ }
+ .love2{
+    color: red;
+    position: relative;
+    left: 18rem;
+    bottom: 1.5rem;
+ }
+ .num2{
+    color: white;
+    position: relative;
+    left: 1.5rem;
+    bottom: 1rem;
+    font-size: 12px;
+ }
+ .shadow9{
+
+    box-shadow: 10px 10px 10px #1c1e22,
+    -5px -10px 10px #262a2e;
+    position: relative;
+    bottom: 101.2rem;
+    left: 34rem;
+    height: 410px;
+    width: 375px;
+    border-radius: 10px;
+ }
+ 
+ .img4{
+    position: relative;
+    left: 11rem;
+    top: 10rem;
+    
+    
+ }
+ .head3{
+    position: relative;
+    top: 16.5rem;
+    left: 2rem;
+    color: red;
+ }
+ .topic3{
+    position: relative;
+    top: 17.5rem;
+    left: 2rem;
+    font-size: 25px;
+    color: white;
+ }
+ .love3{
+    color: red;
+    position: relative;
+    left: 18rem;
+    top: 12rem;
+ }
+ .num3{
+    color: white;
+    position: relative;
+    bottom: 1rem;
+    left: 1.5rem;
+    font-size: 12px;
+ }
+ .shadow10{
+
+    box-shadow: 10px 10px 10px #1c1e22,
+    -5px -10px 10px #262a2e;
+    position: relative;
+    bottom:98rem;
+    left: 34rem;
+    height: 410px;
+    width: 375px;
+    border-radius: 10px;
+ }
+ .img5{
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+    
+ }
+ .head4{
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+    color: red;
+ }
+ .topic4{
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+    font-size: 25px;
+    color: white;
+ }
+ .love4{
+    color: red;
+    position: relative;
+    left: 18rem;
+    bottom: 1.5rem;
+ }
+ .num4{
+    color: white;
+    position: relative;
+    left: 1.5rem;
+    bottom: 1rem;
+    font-size: 12px;
+ }
+ .shadow11{
+
+    box-shadow: 10px 10px 10px #1c1e22,
+    -5px -10px 10px #262a2e;
+    position: relative;
+    bottom:152.5rem;
+    left: 60rem;
+    height: 410px;
+    width: 375px;
+    border-radius: 10px;
+ }
+ .img6{
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+    
+ }
+ .head5{
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+    color: red;
+ }
+ .topic5{
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+    font-size: 25px;
+    color: white;
+ }
+ .love5{
+    color: red;
+    position: relative;
+    left: 18rem;
+    bottom: 1.5rem;
+ }
+ .num5{
+    color: white;
+    position: relative;
+    left: 1.5rem;
+    bottom: 1rem;
+    font-size: 12px;
+ }
+ .shadow12{
+
+    box-shadow: 10px 10px 10px #1c1e22,
+    -5px -10px 10px #262a2e;
+    position: relative;
+    bottom: 149.2rem;
+    left: 60rem;
+    height: 410px;
+    width: 375px;
+    border-radius: 10px;
+ }
+ 
+ .img7{
+    position: relative;
+    left: 11rem;
+    top: 10rem;
+    
+    
+ }
+ .head6{
+    position: relative;
+    top: 16.5rem;
+    left: 2rem;
+    color: red;
+ }
+ .topic6{
+    position: relative;
+    top: 17.5rem;
+    left: 2rem;
+    font-size: 25px;
+    color: white;
+ }
+ .love6{
+    color: red;
+    position: relative;
+    left: 18rem;
+    top: 12rem;
+ }
+ .num6{
+    color: white;
+    position: relative;
+    bottom: 1rem;
+    left: 1.5rem;
+    font-size: 12px;
+ }
+ .heading2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 135rem;
+ }
+ #port2{
+    position: relative;
+    left: 7.5rem;
+    color: red;  
+    font-size: 15px; 
+   
+    }
+    #head2{
+       position: relative;
+       right: 9.5rem;
+       top: 1.5rem;
+       font-size: 65px;
+       color: white;
+    }
+
+       .navlinks2{
+        width: 88%;
+        box-shadow: 10px 10px 10px #1c1e22,
+        -5px -10px 10px #262a2e;
+        position: relative;
+        bottom: 130rem;
+        height: 100px;   
+        border-radius: 20px; 
+    }
+    #edu{
+        position: relative;
+        color: rgb(174, 25, 25);
+        top: 2rem;
+        font-size: 35px;
+
+
+    }
+    #pro{
+        color: white;
+        position: relative;
+        top: 2rem;
+        font-size: 35px;
+
+    }
+    #exp{
+        color: white;
+        position: relative;
+        top: 2rem;
+        font-size: 35px;
+
+    }
+    #int{
+        color: white;
+        position: relative;
+        top: 2rem;
+        font-size: 35px;
+
+
+    }
+    #pro :hover{
+        background-color: red;
+        cursor: pointer;
+    transform: translateY(-2px);
+
+    }
+    .education{
+        position: relative;
+        bottom: 120rem;  
+        left: 5rem;  
+    }
+    #number{
+        color: rgb(174, 25, 25);
+
+    }
+    #qua{
+        color: white;
+        position: relative;
+        top: 1rem;
+        font-size: 38px;
+    }
+    .education2{
+        position: relative;
+        bottom: 123.5rem;  
+        left: 45rem;  
+    }
+    #number2{
+        color: rgb(174, 25, 25);
+
+    }
+    #qua2{
+        color: white;
+        position: relative;
+        top: 1rem;
+        font-size: 38px;
+    }
+.bsc{
+    box-shadow: 10px 10px 10px #1c1e22,
+        -5px -10px 10px #262a2e;
+        width: 38%;
+        height: 300px;
+        position: relative;
+        bottom: 118rem;
+        left: 7rem;
+        border-radius: 10px;
+
+}
+#comp{
+    position: relative;
+    top: 3rem;
+    font-size: 30px;
+    color: white;
+    left: 2rem;
+
+}
+#uni{
+    position: relative;
+    top: 4rem;
+    font-size: 22px;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+
+
+}
+#numm{
+    box-shadow: 10px 10px 10px #131314,
+        -5px -10px 10px #222424;
+        width: 10%;
+    position: relative;
+    left: 27.5rem;
+    top: 0.5rem;
+    color: red;
+    font-size: 18px;
+
+}
+#eco{
+    position: relative;
+    top: 7rem;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+    font-size: 20px;
+
+}
+.bsc2{
+    box-shadow: 10px 10px 10px #1c1e22,
+        -5px -10px 10px #262a2e;
+        width: 38%;
+        height: 300px;
+        position: relative;
+        bottom: 115rem;
+        left: 7rem;
+        border-radius: 10px;
+
+}
+#comp2{
+    position: relative;
+    top: 3rem;
+    font-size: 30px;
+    color: white;
+    left: 2rem;
+
+}
+#uni2{
+    position: relative;
+    top: 4rem;
+    font-size: 22px;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+
+
+}
+#numm2{
+    box-shadow: 10px 10px 10px #131314,
+        -5px -10px 10px #222424;
+        width: 10%;
+    position: relative;
+    left: 27.5rem;
+    top: 0.5rem;
+    color: red;
+    font-size: 18px;
+
+}
+#eco2{
+    position: relative;
+    top: 7rem;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+    font-size: 20px;
+
+}
+.bsc3{
+    box-shadow: 10px 10px 10px #1c1e22,
+        -5px -10px 10px #262a2e;
+        width: 38%;
+        height: 300px;
+        position: relative;
+        bottom: 112rem;
+        left: 7rem;
+        border-radius: 10px;
+
+}
+#comp3{
+    position: relative;
+    top: 3rem;
+    font-size: 30px;
+    color: white;
+    left: 2rem;
+
+}
+#uni3{
+    position: relative;
+    top: 4rem;
+    font-size: 22px;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+
+
+}
+#numm3{
+    box-shadow: 10px 10px 10px #131314,
+        -5px -10px 10px #222424;
+        width: 10%;
+    position: relative;
+    left: 27.5rem;
+    top: 0.5rem;
+    color: red;
+    font-size: 18px;
+
+}
+#eco3{
+    position: relative;
+    top: 7rem;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+    font-size: 20px;
+
+}
+.bsc4{
+    box-shadow: 10px 10px 10px #1c1e22,
+        -5px -10px 10px #262a2e;
+        width: 38%;
+        height: 300px;
+        position: relative;
+        bottom: 174rem;
+        left: 50rem;
+        border-radius: 10px;
+
+}
+#comp4{
+    position: relative;
+    top: 3rem;
+    font-size: 30px;
+    color: white;
+    left: 2rem;
+
+}
+#uni4{
+    position: relative;
+    top: 4rem;
+    font-size: 22px;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+
+
+}
+#numm4{
+    box-shadow: 10px 10px 10px #131314,
+        -5px -10px 10px #222424;
+        width: 8%;
+    position: relative;
+    left: 27.5rem;
+    top: 0.5rem;
+    color: red;
+    font-size: 18px;
+
+}
+#eco4{
+    position: relative;
+    top: 7rem;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+    font-size: 20px;
+
+}
+.bsc5{
+    box-shadow: 10px 10px 10px #1c1e22,
+        -5px -10px 10px #262a2e;
+        width: 38%;
+        height: 300px;
+        position: relative;
+        bottom: 171.2rem;
+        left: 50rem;
+        border-radius: 10px;
+
+}
+#comp5{
+    position: relative;
+    top: 3rem;
+    font-size: 30px;
+    color: white;
+    left: 2rem;
+
+}
+#uni5{
+    position: relative;
+    top: 4rem;
+    font-size: 22px;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+
+
+}
+#numm5{
+    box-shadow: 10px 10px 10px #131314,
+        -5px -10px 10px #222424;
+        width: 18%;
+    position: relative;
+    left: 27.5rem;
+    top: 0.5rem;
+    color: red;
+    font-size: 18px;
+
+}
+#eco5{
+    position: relative;
+    top: 7rem;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+    font-size: 20px;
+
+}
+.bsc6{
+    box-shadow: 10px 10px 10px #1c1e22,
+        -5px -10px 10px #262a2e;
+        width: 38%;
+        height: 300px;
+        position: relative;
+        bottom: 168.2rem;
+        left: 50rem;
+        border-radius: 10px;
+
+}
+#comp6{
+    position: relative;
+    top: 3rem;
+    font-size: 30px;
+    color: white;
+    left: 2rem;
+
+}
+#uni6{
+    position: relative;
+    top: 4rem;
+    font-size: 22px;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+
+
+}
+#numm6{
+    box-shadow: 10px 10px 10px #131314,
+        -5px -10px 10px #222424;
+        width: 10%;
+    position: relative;
+    left: 27.5rem;
+    top: 0.5rem;
+    color: red;
+    font-size: 18px;
+
+}
+#eco6{
+    position: relative;
+    top: 7rem;
+    left: 2rem;
+    color: rgb(202, 191, 191);
+    font-size: 20px;
+
+}
+#eco6:hover{
+    background-color: #262a2e;
+}
+.clinets{
+    position: relative;
+    bottom: 150rem;
+    left: 40rem;
+}
+#test{
+    position: relative;
+    color: rgb(174, 25, 25);
+    font-size: 20px;
+}
+#test2{
+    position: relative;
+    color: white;
+    font-size: 60px;
+    top: 1rem;
+    right: 4rem;
+}
+.swiper {
+    position: relative;
+    width: 90%;
+    height: 500px;
+    bottom: 140rem;
+}
+#sha{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    width: 30%;
+    height: 440px;
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+    border-radius: 20px;
+    
+    
+}
+#pic{
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+}
+#bound{
+    position: relative;
+    top: 1rem;
+    color: rgb(198, 29, 29);
+
+}
+#jone{
+    position: relative;
+    top: 1rem;
+    color: white;
+
+}
+#off{
+    position: relative;
+    top: 1.5rem;
+    color: rgb(151, 147, 147);
+    font-size: 15px;
+}
+#sha2{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    width: 55%;
+    height: 350px;
+    position: relative;
+    left: 33rem;
+    bottom: 20rem;
+    border-radius: 20px;
+
+}
+#app{
+    position: relative;
+    color: white;
+    top: 3rem;
+    left: 3rem;
+}
+#via{
+    position: relative;
+    color:rgb(151, 147, 147);
+    top: 3.5rem;
+    font-size: 18px;
+    left: 3rem;
+}
+#lom{
+    position: relative;
+    color:rgb(151, 147, 147);
+    top: 8rem;
+    font-size: 16px;
+    left: 3rem;
+
+}
+#sha3{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    width: 30%;
+    height: 440px;
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+    border-radius: 20px;
+    
+    
+}
+#pic2{
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+}
+#bound2{
+    position: relative;
+    top: 1rem;
+    color: rgb(198, 29, 29);
+
+}
+#jone2{
+    position: relative;
+    top: 1rem;
+    color: white;
+
+}
+#off2{
+    position: relative;
+    top: 1.5rem;
+    color: rgb(151, 147, 147);
+    font-size: 15px;
+}
+#sha4{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    width: 55%;
+    height: 350px;
+    position: relative;
+    left: 33rem;
+    bottom: 20rem;
+    border-radius: 20px;
+
+}
+#app2{
+    position: relative;
+    color: white;
+    top: 3rem;
+    left: 3rem;
+}
+#via2{
+    position: relative;
+    color:rgb(151, 147, 147);
+    top: 3.5rem;
+    font-size: 18px;
+    left: 3rem;
+}
+#lom2{
+    position: relative;
+    color:rgb(151, 147, 147);
+    top: 8rem;
+    font-size: 16px;
+    left: 3rem;
+
+}
+#sha5{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    width: 30%;
+    height: 440px;
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+    border-radius: 20px;
+    
+    
+}
+#pic3{
+    position: relative;
+    left: 1.5rem;
+    top: 2rem;
+}
+#bound3{
+    position: relative;
+    top: 1rem;
+    color: rgb(198, 29, 29);
+
+}
+#jone3{
+    position: relative;
+    top: 1rem;
+    color: white;
+
+}
+#off3{
+    position: relative;
+    top: 1.5rem;
+    color: rgb(151, 147, 147);
+    font-size: 15px;
+}
+#sha6{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    width: 55%;
+    height: 350px;
+    position: relative;
+    left: 33rem;
+    bottom: 20rem;
+    border-radius: 20px;
+
+}
+#app3{
+    position: relative;
+    color: white;
+    top: 3rem;
+    left: 3rem;
+}
+#via3{
+    position: relative;
+    color:rgb(151, 147, 147);
+    top: 3.5rem;
+    font-size: 18px;
+    left: 3rem;
+}
+#lom3{
+    position: relative;
+    color:rgb(151, 147, 147);
+    top: 8rem;
+    font-size: 16px;
+    left: 3rem;
+
+}
+.pop{
+    position: relative;
+    bottom: 123rem;
+    left: 5rem;
+}
+#cli{
+    position: relative;
+    color: rgb(143, 33, 33);
+    bottom: 1rem;
+    font-size: 25px;
+
+}
+#awe{
+    position: relative;
+    color: white;
+    font-size: 60px;
+
+}
+.black{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 30%;
+    height: 500px;
+    position: relative;
+    bottom: 118rem;
+    left: 3rem;
+    border-radius: 20px;
+    
+
+}
+#java{
+    position: relative;
+    font-size: 30px;
+    color: rgb(176, 39, 39);
+    left: 8rem;
+    top: 3.5rem;
+}
+#word{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    left: 8rem;
+    top: 3.5rem;
+}
+.black2{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 149rem;
+    left: 33rem;
+    border-radius: 20px;
+}
+.black3{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 147rem;
+    left: 33rem;
+    border-radius: 20px;
+}
+.black4{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 145rem;
+    left: 33rem;
+    border-radius: 20px;
+}
+.black5{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 143rem;
+    left: 33rem;
+    border-radius: 20px;
+}
+.black6{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 199rem;
+    left: 51rem;
+    border-radius: 20px;
+}
+.black7{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 197rem;
+    left: 51rem;
+    border-radius: 20px;
+}
+.black8{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 195rem;
+    left: 51rem;
+    border-radius: 20px;
+}
+.black9{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 193rem;
+    left: 51rem;
+    border-radius: 20px;
+}
+.black10{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 249rem;
+    left: 69rem;
+    border-radius: 20px;
+}
+.black11{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 247rem;
+    left: 69rem;
+    border-radius: 20px;
+}
+.black12{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 245rem;
+    left: 69rem;
+    border-radius: 20px;
+}
+.black13{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    width: 17%;
+    height: 200px;
+    position: relative;
+    bottom: 243rem;
+    left: 69rem;
+    border-radius: 20px;
+}
+#wed{
+    position: relative;
+    left: 4.5rem;
+    top: 1.5rem;
+}
+#due{
+    position: relative;
+    left: 5.5rem;
+    top: 3.5rem;
+    color: white;
+    font-size: 18px;
+}
+#wed2{
+    position: relative;
+    left: 4rem;
+    top: 2.5rem;
+}
+#due2{
+    position: relative;
+    left: 5.5rem;
+    top: 5.5rem;
+    color: white;
+    font-size: 18px;
+}
+#wed3{
+    position: relative;
+    left: 3.5rem;
+    top: 1.5rem;
+}
+#due3{
+    position: relative;
+    left: 5.5rem;
+    top: 3.5rem;
+    color: white;
+    font-size: 18px;
+}
+#wed4{
+    position: relative;
+    left: 4.5rem;
+    top: 1.5rem;
+}
+#due4{
+    position: relative;
+    left: 5.5rem;
+    top: 4.5rem;
+    color: white;
+    font-size: 18px;
+}
+#wed5{
+    position: relative;
+    left: 3.5rem;
+    top: 1.5rem;
+}
+#due5{
+    position: relative;
+    left: 5.5rem;
+    top: 4rem;
+    color: white;
+    font-size: 18px;
+}
+#wed6{
+    position: relative;
+    left: 4rem;
+    top: 1.5rem;
+}
+#due6{
+    position: relative;
+    left: 4.5rem;
+    top: 4.5rem;
+    color: white;
+    font-size: 18px;
+}
+#wed7{
+    position: relative;
+    left: 4.5rem;
+    top: 1.5rem;
+}
+#due7{
+    position: relative;
+    left: 4.5rem;
+    top: 3.5rem;
+    color: white;
+    font-size: 18px;
+}
+#wed8{
+    position: relative;
+    left: 4.5rem;
+    top: 1.5rem;
+}
+#due8{
+    position: relative;
+    left: 4.5rem;
+    top: 3.5rem;
+    color: white;
+    font-size: 18px;
+}
+#wed9{
+    position: relative;
+    left: 4.5rem;
+    top: 1.5rem;
+}
+#due9{
+    position: relative;
+    left: 4.5rem;
+    top: 3.5rem;
+    color: white;
+    font-size: 18px;
+}
+#wed10{
+    position: relative;
+    left: 4.5rem;
+    top: 1.5rem;
+}
+#due10{
+    position: relative;
+    left: 5.5rem;
+    top: 3.5rem;
+    color: white;
+    font-size: 18px;
+}
+#wed11{
+    position: relative;
+    left: 3.5rem;
+    top: 2.5rem;
+}
+#due11{
+    position: relative;
+    left: 6rem;
+    top: 5.5rem;
+    color: white;
+    font-size: 18px;
+}
+#wed12{
+    position: relative;
+    left: 3.5rem;
+    top: 1.5rem;
+}
+#due12{
+    position: relative;
+    left: 6rem;
+    top: 3.5rem;
+    color: white;
+    font-size: 18px;
+}
+.price{
+    position: relative;
+    bottom: 230rem;
+    left: 5rem;
+}
+#pri{
+    position: relative;
+    bottom: 1rem;
+    font-size: 20px;
+    color: rgb(188, 44, 44);
+}
+#my{
+    position: relative;
+    font-size: 60px;
+    color: white;
+    
+}
+
+
+
+
+.static{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e; 
+    position: relative;
+    bottom: 237rem;
+    width: 55%;
+    height: 900px;
+    left: 35rem;
+    border-radius: 20px;
+    
+}
+.white{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    width: 55%;
+    height: 100px;
+    position: relative;
+    bottom: 293rem;
+    left: 35rem;
+    border-radius: 20px;
+
+}
+
+#standard{
+    color: rgb(169, 43, 43);
+    position: relative;
+    font-size: 25px;
+    top: 1.5rem;
+        
+}
+#dard{
+    position: relative;
+    font-size: 25px;
+    top: 1.5rem;
+    color: white;
+    
+}
+#mium{
+    position: relative;
+    font-size: 25px;
+    top: 1.5rem;
+    color: white;
+}
+.make{
+    position: relative;
+    bottom: 288rem;
+    left: 38rem;
+   
+}
+#your{
+    position: relative;
+    bottom: 0.5rem;
+    color: white;
+}
+#wp{
+    position: relative;
+    color: rgb(192, 187, 187);
+    font-size: 25px;
+
+}
+.dollor{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    width: 9%;
+    height: 58px;
+    color: rgb(200, 45, 45);
+    position: relative;
+    bottom: 292rem;
+    left: 72rem;
+
+}
+#money{
+    position: relative;
+    top: 0.5rem;
+    left: 1.5rem;
+
+}
+#tend{
+    position: relative;
+    bottom: 288rem;
+    left: 38rem;
+    font-size: 20px;
+    color: rgb(184, 178, 178);
+}
+.tick{
+   position: relative;
+   bottom: 283rem;
+   font-size: 10px;
+   left: 38rem;
+   color: rgb(184, 178, 178);
+}
+
+.tick2{
+   position: relative;
+   bottom: 283rem;
+   font-size: 10px;
+   left: 38rem;
+   color: rgb(184, 178, 178);
+}
+.tick3{
+   position: relative;
+   bottom: 283rem;
+   font-size: 10px;
+   left: 38rem;
+   color: rgb(184, 178, 178);
+}
+.tick4{
+   position: relative;
+   bottom: 283rem;
+   font-size: 10px;
+   left: 38rem;
+   color: rgb(184, 178, 178);
+}
+.tick5{
+   position: relative;
+   bottom: 283rem;
+   font-size: 10px;
+   left: 38rem;
+   color: rgb(184, 178, 178);
+}
+.tick6{
+   position: relative;
+   bottom: 283rem;
+   font-size: 10px;
+   left: 38rem;
+   color: rgb(184, 178, 178);
+}
+#name{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+#name2{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+#name3{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+#name4{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+#name5{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+#name6{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+.right{
+    position: relative;
+    bottom: 295.8rem;
+    font-size: 10px;
+    left: 58rem;
+    color: rgb(184, 178, 178);
+}
+
+.right2{
+    position: relative;
+    bottom: 295.8rem;
+    font-size: 10px;
+    left: 58rem;
+    color: rgb(184, 178, 178);
+}
+.right3{
+    position: relative;
+    bottom: 295.8rem;
+    font-size: 10px;
+    left: 58rem;
+    color: rgb(184, 178, 178);
+}
+.right4{
+    position: relative;
+    bottom: 295.8rem;
+    font-size: 10px;
+    left: 58rem;
+    color: rgb(184, 178, 178);
+}
+.right5{
+    position: relative;
+    bottom: 295.8rem;
+    font-size: 10px;
+    left: 58rem;
+    color: rgb(184, 178, 178);
+}
+.right6{
+    position: relative;
+    bottom: 295.8rem;
+    font-size: 10px;
+    left: 58rem;
+    color: rgb(184, 178, 178);
+}
+#left{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+#left2{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+#left3{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+#left4{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+#left5{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+#left6{
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+}
+.order{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    position: relative;
+    height: 75px;
+    left: 46rem;
+    bottom: 288rem;
+    width: 30%;
+    border-radius: 20px;
+
+}
+#now{
+    position:relative ;
+    left: 11rem;
+    color: rgb(173, 44, 44);
+    font-size: 23px;
+    top: 1.5rem;
+}
+.contact{
+    position: relative;
+    bottom: 267rem;
+    display: flex;
+    justify-content: center;
+}
+#con{
+    position: relative;
+    bottom: 3rem;
+    left: 9rem;
+    font-size: 25px;
+    color: rgb(176, 40, 40);
+}
+#with{
+    position: relative;
+    font-size: 60px;
+    right: 6rem;
+    color: white;
+
+}
+
+.blue{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    width: 35%;
+    height: 715px;
+    position: relative;
+    bottom: 261rem;
+    left: 5rem;
+    border-radius: 20px;
+}
+#hand{
+    position: relative;
+    left: 2.5rem;
+    top: 2rem;
+    border-radius: 20px;
+
+}
+#officer{
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+    color: white;
+    font-size: 40px;
+}
+#officer2{
+    position: relative;
+    top: 4.5rem;
+    left: 2rem;
+    color: rgb(192, 186, 186);
+    font-size: 20px;
+    
+}
+#officer3{
+    position: relative;
+    top: 6rem;
+    left: 2rem;
+    color: rgb(192, 186, 186);
+    font-size:25px;
+    
+}
+#officer4{
+    position: relative;
+    top: 8rem;
+    left: 2rem;
+    color: rgb(192, 186, 186);
+    font-size:20px;
+    
+}
+#officer5{
+    position: relative;
+    top: 8rem;
+    left: 2rem;
+    color: rgb(192, 186, 186);
+    font-size:20px;
+}
+#officer6{
+    position: relative;
+    top: 10rem;
+    left: 2rem;
+    color: rgb(192, 186, 186);
+    font-size:20px;
+
+}
+#social123{
+    position: relative;
+    top: 12rem;
+    color: white;
+    width: 50%;
+
+}
+#social123 li {
+    box-shadow: 10px 10px 19px #1c1e22,
+        -5px -10px 10px #262a2e;
+        background-color: #202327;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+.form{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    width: 50%;
+    height: 715px;
+    position: relative;
+    bottom: 306rem;
+    left: 40rem;
+    border-radius: 20px;
+
+}
+.label{
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+    font-size: 20px;
+}
+#fname{
+    position: relative;
+    right: 3rem;
+    width: 43%;
+    height: 45px;
+    background-color: #1c1e22;
+    top: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#lname{
+    position: relative;
+    left: 19rem;
+    width: 43%;
+    height: 45px;
+    background-color: #1c1e22;
+    bottom: 3.2rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+#input{
+    position: relative;
+    right: 2rem;
+    color: rgb(178, 174, 174);
+}
+#input2{
+    position: relative;
+    left:22rem;
+    bottom: 4.3rem;
+    color: rgb(178, 174, 174);
+}
+#mail{
+    position: relative;  
+    width: 91%;
+    height: 45px;
+    background-color: #1c1e22;
+    border: none;
+    border-radius: 5px;
+    right: 3rem;
+    top: 1.5rem;
+    color: white;
+}
+#email{
+    position: relative;
+    color: rgb(178, 174, 174);
+    top: 1.5rem;
+    right: 22.2rem;
+
+}
+#subject2{
+    position: relative;
+    color: rgb(178, 174, 174);
+   top: 3.2rem;
+   right: 2rem;
+
+
+}
+#subject{
+    position: relative;  
+    width: 91%;
+    height: 45px;
+    background-color: #1c1e22;
+    border: none;
+    border-radius: 5px;
+    right: 3rem;
+    top:4rem ;
+    color: white;
+}
+#yourmessage2{
+    position: relative;
+    color: rgb(178, 174, 174);
+    top: 5.5rem;
+    right: 2.2rem;
+}
+#yourmessage{
+    position: relative;  
+    width: 91%;
+    height: 150px;
+    background-color: #1c1e22;
+    border: none;
+    border-radius: 5px;
+    top:4rem ;
+    right: 3rem;
+    top: 6rem;
+    color: white;
+
+}
+.send{
+    box-shadow:  10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    background-color: #20293b;
+    width: 90%;
+    height: 60px;
+    position: relative;
+    top: 11rem;
+    left: 2rem;
+    border-radius: 10px;
+
+}
+#send2{
+    position: relative;
+    color: rgb(178, 174, 174);
+    left: 16rem;
+    top: 1.2rem;
+
+}
+
+
+
+    
+
+
+
+    
+
+ 
+
+
+ 
+
+
+ 
