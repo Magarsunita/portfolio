@@ -8,20 +8,24 @@ body{
 a{
     text-decoration: none;
     font-family: montse;
+    color: white;
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 75px;
+    color: white;
 }
 .navlinks{
     width: 80%;
+    
 }
 ul{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    
 }
 
 
@@ -32,6 +36,7 @@ ul{
         -10px -10px 19px #262a2e;
     background-color: var(--color-dark);
     font-weight: bold;
+    color: red;
 }
 .introduction{
     margin-top: 10%;
@@ -130,7 +135,7 @@ ul{
         width: 375px;
         transition: transform 0.5s ease;
 }
-.shadow :hover{
+.shadow:hover{
     background-color: #1a1b20;
     cursor: pointer;
     transform: translateY(-2px);
@@ -2025,7 +2030,191 @@ ul{
     top: 1.2rem;
 
 }
+.man{
+    position: relative;
+    bottom: 285rem;
+    left: 5rem;
+}
+#social1234{
+    position: relative;
+    top: 3rem;
+    color: white;
+    width: 20%;
+    right: 4rem;
 
+}
+#social1234 li {
+    box-shadow: 10px 10px 19px #1c1e22,
+        -5px -10px 10px #262a2e;
+        background-color: #202327;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+.footer{
+     position: relative;
+     bottom: 292.5rem;
+     left: 30rem;
+    font-size: 14px;
+}
+#jan{
+    position: relative;
+    color: rgb(185, 40, 40);
+    font-size: 25px;
+}
+#feb{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 1rem;
+}
+#mar{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 2rem;
+}
+#apr{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 3rem;
+}
+#may{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 4rem;
+}
+#jun{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 5rem;
+}
+.footer2{
+     position: relative;
+     bottom: 301.8rem;
+     left: 49rem;
+    font-size: 14px;
+}
+#jan2{
+    position: relative;
+    color: rgb(185, 40, 40);
+    font-size: 25px;
+}
+#feb2{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 1rem;
+}
+#mar2{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 2rem;
+}
+#apr2{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 3rem;
+}
+#may2{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 4rem;
+}
+#jun2{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 5rem;
+}
+.footer3{
+     position: relative;
+     bottom: 311rem;
+     left: 68rem;
+    font-size: 14px;
+}
+#jan3{
+    position: relative;
+    color: rgb(185, 40, 40);
+    font-size: 25px;
+    transition: transform 0.3s ease;
+}
+#jan3:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    color: rgb(185, 40, 40);
+}
+#feb3{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 1rem;
+    transition: transform 0.3s ease;
+}
+#feb3:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    color: rgb(185, 40, 40);
+}
+#mar3{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 2rem;
+    transition: transform 0.3s ease;
+}
+#mar3:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    color: rgb(185, 40, 40);
+    
+}
+#apr3{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 3rem;
+    transition: transform 0.3s ease;
+}
+#apr3:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    color: rgb(185, 40, 40);
+}
+#may3{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 4rem;
+    transition: transform 0.3s ease;
+}
+#may3:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    color: rgb(185, 40, 40);
+}
+#jun3{
+    position: relative;
+    color: rgb(190, 182, 182);
+    top: 5rem;
+    transition: transform 0.3s ease;
+    
+}
+
+
+#jun3:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    color: rgb(185, 40, 40);
+}
+.rain{
+    position: relative;
+    color: rgb(190, 182, 182);
+    bottom: 290rem;
+    left: 37rem;
+    transition: transform 0.3s ease;
+    
+}
+.rain:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    color: rgb(185, 40, 40);
+    
+
+
+
+}
 
 
     
